@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5faf8">
+  <meta name="description" content="Dashboard TumbuhBaik — sistem monitoring pelanggaran siswa sekolah dasar.">
+  <title>Dashboard — TumbuhBaik</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap-utilities.min.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <script>
+    (function () {
+      try {
+        if (!localStorage.getItem('tumbuhbaik.session.v1')) {
+          window.location.replace('login.html');
+        }
+      } catch (error) {
+        window.location.replace('login.html');
+      }
+    })();
+  </script>
+</head>
+<body class="app-body">
+  <div class="app-layout">
+    <div class="sidebar-overlay" id="sidebarOverlay" aria-hidden="true"></div>
+
+    <aside class="app-sidebar" id="appSidebar" aria-label="Navigasi dashboard">
+      <div class="sidebar-head">
+        <a class="brand" href="index.html" aria-label="TumbuhBaik, beranda">
+          <img class="brand__mark" src="assets/img/logo-mark.svg" alt="">
+          <span class="brand__copy">
+            <span class="brand__name">TumbuhBaik</span>
+            <span class="brand__tag">Monitoring Kesiswaan</span>
+          </span>
+        </a>
+        <button class="sidebar-close" id="sidebarClose" type="button" aria-label="Tutup menu">
+          <span data-icon="close" data-icon-size="18" aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <div class="sidebar-school">
+        <span class="icon-tile" aria-hidden="true"><span data-icon="school" data-icon-size="18"></span></span>
+        <div>
+          <strong id="sidebarSchoolName">SD Tunas Cendekia</strong>
+          <span id="sidebarSchoolYear">TA 2026/2027 · Ganjil</span>
+        </div>
+      </div>
+
+      <nav class="side-nav" id="sideNav" aria-label="Menu utama"></nav>
+
+      <div class="sidebar-footer">
+        <div class="sidebar-help">
+          <span class="sidebar-help__icon" aria-hidden="true"><span data-icon="help" data-icon-size="17"></span></span>
+          <div>
+            <strong>Butuh bantuan?</strong>
+            <p>Lihat panduan singkat sesuai peran Anda.</p>
+            <button type="button" class="sidebar-help__link" data-app-action="help">Buka panduan <span data-icon="arrowRight" data-icon-size="12" aria-hidden="true"></span></button>
+          </div>
+        </div>
+        <p class="sidebar-version">TumbuhBaik · Demo front-end v1.0</p>
+      </div>
+    </aside>
+
+    <div class="app-main">
+      <header class="app-topbar">
+        <div class="topbar-left">
+          <button class="menu-trigger" id="menuTrigger" type="button" aria-label="Buka menu" aria-expanded="false">
+            <span data-icon="menu" data-icon-size="20" aria-hidden="true"></span>
+          </button>
+          <div class="topbar-title">
+            <span class="topbar-eyebrow" id="pageEyebrow">Ringkasan</span>
+            <h1 id="pageTitle">Dashboard</h1>
+          </div>
+        </div>
+
+        <div class="topbar-actions">
+          <span class="topbar-context">
+            <span data-icon="calendar" data-icon-size="14" aria-hidden="true"></span>
+            <span id="topbarContext">TA 2026/2027 · Semester Ganjil</span>
+          </span>
+          <button class="search-trigger" id="globalSearch" type="button" aria-label="Cari halaman atau siswa">
+            <span data-icon="search" data-icon-size="15" aria-hidden="true"></span>
+            <span class="search-trigger__label">Cari…</span>
+            <kbd>/</kbd>
+          </button>
+          <button class="topbar-icon-button" id="notificationButton" type="button" aria-label="Lihat pelanggaran yang belum ditindak lanjuti">
+            <span data-icon="bell" data-icon-size="19" aria-hidden="true"></span>
+            <span class="notif-count hidden" id="notifCount">0</span>
+          </button>
+
+          <div class="profile">
+            <button class="profile-trigger" id="profileTrigger" type="button" aria-haspopup="menu" aria-expanded="false">
+              <span id="topbarAvatar" class="avatar avatar--sm avatar-c1">?</span>
+              <span class="profile-trigger__copy">
+                <strong id="topbarName">Pengguna</strong>
+                <span id="topbarRole">Peran</span>
+              </span>
+              <span class="profile-trigger__chevron" data-icon="chevronDown" data-icon-size="14" aria-hidden="true"></span>
+            </button>
+            <div class="profile-menu" id="profileMenu" role="menu">
+              <div class="profile-menu__head">
+                <span id="menuAvatar" class="avatar avatar--md avatar-c1">?</span>
+                <div>
+                  <strong id="menuName">Pengguna</strong>
+                  <span id="menuUsername">@username</span>
+                </div>
+              </div>
+              <div class="profile-menu__divider"></div>
+              <a class="profile-menu__item" href="#/profil" role="menuitem">
+                <span data-icon="user" data-icon-size="16" aria-hidden="true"></span> Profil saya
+              </a>
+              <button class="profile-menu__item" type="button" data-app-action="help" role="menuitem">
+                <span data-icon="help" data-icon-size="16" aria-hidden="true"></span> Panduan penggunaan
+              </button>
+              <div class="profile-menu__divider"></div>
+              <button class="profile-menu__item profile-menu__item--danger" type="button" data-app-action="logout" role="menuitem">
+                <span data-icon="logout" data-icon-size="16" aria-hidden="true"></span> Keluar
+              </button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="app-page" id="pageContent">
+        <div class="page-loader" aria-live="polite">
+          <span class="loader-ring"></span>
+          <span>Menyiapkan dashboard…</span>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script src="assets/js/app-pages.js"></script>
+  <script src="assets/js/app-records.js"></script>
+</body>
+</html>

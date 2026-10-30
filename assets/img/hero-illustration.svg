@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 600" role="img" aria-label="Ilustrasi guru dan dua siswa sekolah dasar dalam suasana aman dan ceria">
+  <defs>
+    <clipPath id="hero-card">
+      <rect x="66" y="44" width="570" height="486" rx="96" transform="rotate(-3 351 287)"/>
+    </clipPath>
+  </defs>
+
+  <!-- backdrop -->
+  <rect x="66" y="44" width="570" height="486" rx="96" fill="#FFF8EA" transform="rotate(-3 351 287)"/>
+  <circle cx="596" cy="122" r="106" fill="#D8F1EA"/>
+  <circle cx="93" cy="432" r="50" fill="#FBE3DB"/>
+  <circle cx="632" cy="368" r="58" fill="none" stroke="#AFE2D5" stroke-width="2" stroke-dasharray="3 11"/>
+  <circle cx="154" cy="111" r="9" fill="#F6C95D"/>
+  <circle cx="617" cy="510" r="7" fill="#F2836C"/>
+  <path d="M88 214c21-18 43-17 62 4" fill="none" stroke="#C2E8DE" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 12"/>
+  <ellipse cx="370" cy="526" rx="277" ry="43" fill="#E4F4EE"/>
+
+  <!-- little decorative sparks -->
+  <path d="m329 103 5 12 12 5-12 5-5 12-5-12-12-5 12-5z" fill="#F6C95D"/>
+  <path d="m632 260 4 9 9 4-9 4-4 9-4-9-9-4 9-4z" fill="#F2836C"/>
+  <circle cx="133" cy="281" r="6" fill="#8AD3C2"/>
+  <circle cx="640" cy="313" r="4" fill="#143250" opacity=".24"/>
+
+  <!-- ============ BOOK STACK ============ -->
+  <g>
+    <rect x="310" y="500" width="252" height="26" rx="13" fill="#17445E"/>
+    <rect x="326" y="476" width="224" height="25" rx="12.5" fill="#F2836C"/>
+    <rect x="344" y="452" width="192" height="24" rx="12" fill="#F6C95D"/>
+    <path d="M326 488h224M344 464h192" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+    <rect x="310" y="500" width="42" height="26" rx="12" fill="#FFF8EA"/>
+    <rect x="326" y="476" width="35" height="25" rx="12" fill="#FFF8EA"/>
+    <rect x="344" y="452" width="32" height="24" rx="12" fill="#FFF8EA"/>
+    <path d="M362 501v24M370 477v24M383 453v23" stroke="#D7E9E3" stroke-width="1.2"/>
+  </g>
+
+  <!-- ============ TEACHER ============ -->
+  <g>
+    <ellipse cx="226" cy="525" rx="77" ry="13" fill="#CFE9E1"/>
+    <!-- legs -->
+    <path d="M210 486v31" stroke="#F0C6A5" stroke-width="15" stroke-linecap="round"/>
+    <path d="M246 486v31" stroke="#F0C6A5" stroke-width="15" stroke-linecap="round"/>
+    <path d="M194 518c0-6 5-9 12-9h13c7 0 10 4 10 9v8h-35z" fill="#143250"/>
+    <path d="M235 518c0-6 5-9 12-9h13c7 0 10 4 10 9v8h-35z" fill="#143250"/>
+    <!-- skirt -->
+    <path d="M173 355h104l20 128c-27 15-117 15-144 0l20-128Z" fill="#2D8C7D"/>
+    <path d="M193 360 183 481M224 360v124M255 360l10 121" stroke="#247567" stroke-width="1.4" opacity=".45"/>
+    <!-- blouse -->
+    <path d="M184 254c10-9 24-14 41-14s31 5 41 14c12 11 14 29 10 55l-9 58H183l-9-58c-4-26-2-44 10-55Z" fill="#FFF5DE"/>
+    <path d="M211 242h28l-4 27c-2 10-18 10-20 0z" fill="#F0C6A5"/>
+    <path d="M220 250v22M230 250v22" stroke="#E4D6BA" stroke-width="1.2"/>
+    <!-- left arm -->
+    <path d="M184 264c-12 12-20 34-22 61l-2 32" fill="none" stroke="#FFF5DE" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="160" cy="366" r="10" fill="#F0C6A5"/>
+    <!-- right arm holding tablet -->
+    <path d="M266 265c21 12 39 32 51 54" fill="none" stroke="#FFF5DE" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="322" cy="327" r="10" fill="#F0C6A5"/>
+    <!-- hijab -->
+    <path d="M176 192c0-36 20-60 47-60s48 24 48 59c0 29-13 51-28 67-6 6-12 9-20 9s-15-3-21-10c-16-17-26-38-26-65Z" fill="#F2836C"/>
+    <path d="M195 216c9 16 23 27 37 35 4 3 2 11-5 12-20 4-37-9-46-30-5-12 7-27 14-17Z" fill="#E97058"/>
+    <ellipse cx="223" cy="194" rx="27" ry="30" fill="#F0C6A5"/>
+    <path d="M196 187c2-25 17-38 38-35 15 2 24 13 28 30-8-4-16-6-27-4-11 2-18 6-23 13-4 5-10 1-16-4Z" fill="#F2836C"/>
+    <path d="M204 197c3 0 5 1 6 2M238 198c2-1 4-2 6-1" stroke="#17445E" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="212" cy="204" r="2" fill="#17445E"/>
+    <circle cx="236" cy="204" r="2" fill="#17445E"/>
+    <path d="M216 213c5 5 12 5 17 1" fill="none" stroke="#C76C52" stroke-width="1.8" stroke-linecap="round"/>
+    <path d="M186 235c8 24 25 40 40 48" fill="none" stroke="#DF7058" stroke-width="2" opacity=".6"/>
+    <!-- tablet -->
+    <g transform="translate(300 300) rotate(-14)">
+      <rect width="82" height="108" rx="12" fill="#FFFFFF"/>
+      <rect x="8" y="9" width="66" height="16" rx="8" fill="#DDF3EC"/>
+      <circle cx="18" cy="17" r="3.5" fill="#2D8C7D"/>
+      <rect x="26" y="14" width="31" height="5" rx="2.5" fill="#A9DCD0"/>
+      <rect x="9" y="37" width="64" height="23" rx="7" fill="#FFF8EA"/>
+      <circle cx="21" cy="48" r="7" fill="#F6C95D"/>
+      <path d="m17.5 48 2.5 2.5 4.5-5" fill="none" stroke="#17445E" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="33" y="42" width="29" height="4" rx="2" fill="#17445E" opacity=".65"/>
+      <rect x="33" y="50" width="20" height="3" rx="1.5" fill="#B6CFC8"/>
+      <rect x="9" y="69" width="64" height="23" rx="7" fill="#FDF0EB"/>
+      <circle cx="21" cy="80" r="7" fill="#F2836C"/>
+      <path d="M18 80h6M21 77v6" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+      <rect x="33" y="74" width="26" height="4" rx="2" fill="#17445E" opacity=".65"/>
+      <rect x="33" y="82" width="17" height="3" rx="1.5" fill="#E2B7AB"/>
+    </g>
+    <!-- hijab chest drape -->
+    <path d="M245 245c2 18 3 39-8 48 16 9 30 9 35 1-10-13-12-31-11-49z" fill="#E97058"/>
+  </g>
+
+  <!-- ============ BOY WAVING ============ -->
+  <g>
+    <ellipse cx="545" cy="525" rx="57" ry="11" fill="#CFE9E1"/>
+    <!-- legs -->
+    <path d="M523 432v58" stroke="#D99B78" stroke-width="16" stroke-linecap="round"/>
+    <path d="M560 432v58" stroke="#D99B78" stroke-width="16" stroke-linecap="round"/>
+    <path d="M506 488c0-6 5-9 12-9h14c6 0 9 4 9 9v10h-35z" fill="#F2836C"/>
+    <path d="M546 488c0-6 5-9 12-9h14c6 0 9 4 9 9v10h-35z" fill="#F2836C"/>
+    <!-- shorts -->
+    <path d="M512 389h62l12 51c-8 8-16 10-27 10h-8l-8-36-8 36h-9c-11 0-19-3-26-11z" fill="#2D8C7D"/>
+    <!-- shirt -->
+    <path d="M503 279c9-10 22-16 39-16 18 0 32 6 41 17 10 12 11 33 5 61l-10 51h-71l-10-51c-6-30-5-50 6-62Z" fill="#F6C95D"/>
+    <path d="M512 285c5 25 8 51 5 75M576 285c-5 25-8 51-5 75" stroke="#E6B545" stroke-width="2" opacity=".45"/>
+    <path d="M526 267h33l-4 26c-3 10-22 10-25 0z" fill="#D99B78"/>
+    <!-- left arm down -->
+    <path d="M505 288c-9 15-13 36-13 57" fill="none" stroke="#F6C95D" stroke-width="17" stroke-linecap="round"/>
+    <circle cx="491" cy="349" r="9.5" fill="#D99B78"/>
+    <!-- right arm waving -->
+    <path d="M581 287c14-14 27-34 34-52" fill="none" stroke="#F6C95D" stroke-width="17" stroke-linecap="round"/>
+    <circle cx="620" cy="226" r="12" fill="#D99B78"/>
+    <path d="M614 214v-9M621 214l3-8M627 217l6-5" stroke="#D99B78" stroke-width="5" stroke-linecap="round"/>
+    <!-- head -->
+    <circle cx="542" cy="236" r="33" fill="#D99B78"/>
+    <path d="M507 235c-3-26 12-45 35-45 22 0 37 14 38 39-7-7-17-11-29-11-17 0-29 5-40 18z" fill="#17445E"/>
+    <path d="M513 214c-6 9-8 18-4 28 4-14 11-22 22-25" fill="#17445E"/>
+    <path d="M527 241c3 0 5 1 6 2M553 241c2-1 4-2 6-1" stroke="#17445E" stroke-width="2.2" stroke-linecap="round"/>
+    <circle cx="535" cy="246" r="2.2" fill="#17445E"/>
+    <circle cx="559" cy="246" r="2.2" fill="#17445E"/>
+    <path d="M539 255c5 5 12 5 17 0" fill="none" stroke="#B96C4E" stroke-width="1.8" stroke-linecap="round"/>
+    <circle cx="526" cy="253" r="4" fill="#F2836C" opacity=".35"/>
+    <circle cx="567" cy="253" r="4" fill="#F2836C" opacity=".35"/>
+    <!-- backpack strap -->
+    <path d="M518 282c-7 13-10 29-10 47" fill="none" stroke="#17445E" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+  </g>
+
+  <!-- ============ GIRL READING ============ -->
+  <g>
+    <!-- back hair -->
+    <circle cx="397" cy="361" r="39" fill="#17445E"/>
+    <circle cx="429" cy="391" r="14" fill="#17445E"/>
+    <!-- legs folded -->
+    <path d="M367 456c-8 19 0 29 18 29h40c14 0 17-12 5-22z" fill="#2D8C7D"/>
+    <path d="M360 472c-4 10 4 15 14 15h12" fill="none" stroke="#D99B78" stroke-width="11" stroke-linecap="round"/>
+    <path d="M437 470c5 9 0 16-10 17" fill="none" stroke="#D99B78" stroke-width="11" stroke-linecap="round"/>
+    <!-- torso -->
+    <path d="M370 391c9-9 20-14 33-14 14 0 26 5 35 14 8 9 9 27 5 50l-6 31h-64l-7-31c-4-24-3-41 4-50Z" fill="#F2836C"/>
+    <path d="M392 379h25l-4 24c-2 9-15 9-17 0z" fill="#F0C6A5"/>
+    <!-- arms -->
+    <path d="M373 400c-4 16-11 29-19 39" fill="none" stroke="#F2836C" stroke-width="14" stroke-linecap="round"/>
+    <path d="M433 400c4 16 11 29 18 39" fill="none" stroke="#F2836C" stroke-width="14" stroke-linecap="round"/>
+    <circle cx="351" cy="444" r="8" fill="#F0C6A5"/>
+    <circle cx="454" cy="444" r="8" fill="#F0C6A5"/>
+    <!-- open book on lap -->
+    <g transform="translate(347 440)">
+      <path d="M0 7c20-10 43-10 63 0v31c-21-7-42-7-63 0z" fill="#FFF8EA"/>
+      <path d="M63 7c20-10 43-10 63 0v31c-21-7-42-7-63 0z" fill="#FFF5DE"/>
+      <path d="M63 7v31" stroke="#DABFA2" stroke-width="1.5"/>
+      <path d="M12 16c13-4 25-3 38 2M12 24c13-3 25-2 38 2M75 18c13-5 25-6 38-2M75 26c13-4 25-5 38-1" stroke="#C5DBD4" stroke-width="1.6" stroke-linecap="round"/>
+      <path d="M0 7c8 17 3 25-6 31" fill="#F6C95D"/>
+    </g>
+    <!-- head -->
+    <circle cx="401" cy="359" r="30" fill="#F0C6A5"/>
+    <path d="M372 357c2-20 15-32 34-32 17 0 28 11 31 29-11-9-23-12-35-9-12 3-21 7-30 12Z" fill="#17445E"/>
+    <path d="M382 360c2 0 4 1 5 2M414 362c2-1 4-2 5-2" stroke="#17445E" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="389" cy="367" r="2" fill="#17445E"/>
+    <circle cx="412" cy="367" r="2" fill="#17445E"/>
+    <path d="M394 375c4 4 10 4 14 0" fill="none" stroke="#B96C4E" stroke-width="1.7" stroke-linecap="round"/>
+    <circle cx="380" cy="373" r="3.5" fill="#F2836C" opacity=".35"/>
+    <circle cx="421" cy="373" r="3.5" fill="#F2836C" opacity=".35"/>
+    <!-- hair bow -->
+    <path d="M425 331c5-7 14-7 17 0 2-7 11-10 16-4 4 5 1 12-5 14 7 2 9 11 3 16-6 4-13 0-14-6-3 7-12 8-16 2-4-5-1-12 5-14-5-1-8-5-6-8Z" fill="#F6C95D"/>
+  </g>
+
+  <!-- ============ SAFETY SHIELD ============ -->
+  <g transform="translate(423 121)">
+    <circle r="54" fill="#FFFFFF" opacity=".84"/>
+    <circle r="54" fill="none" stroke="#B9E2D8" stroke-width="1.5" stroke-dasharray="4 7"/>
+    <path d="M0-32c7 5 16 8 24 8v19C24 15 12 27 0 34-12 27-24 15-24-5v-19c8 0 17-3 24-8Z" fill="#2D8C7D"/>
+    <path d="m-11-2 8 8 16-17" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="47" cy="-37" r="10" fill="#F6C95D"/>
+    <path d="M47-42v6M47-32v.5" stroke="#17445E" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- floating leaves / ground details -->
+  <path d="M112 482c-13-17-7-31 8-37 3 17 3 28-8 37Z" fill="#8AD3C2"/>
+  <path d="M126 486c3-17 15-24 28-20-4 13-14 21-28 20Z" fill="#2D8C7D"/>
+  <path d="M96 485c1-12-6-21-17-22 0 12 6 18 17 22Z" fill="#C9EDE4"/>
+  <path d="M604 466c-10-12-6-24 6-29 2 13 2 22-6 29Z" fill="#F6C95D"/>
+  <circle cx="584" cy="469" r="4" fill="#F2836C"/>
+</svg>

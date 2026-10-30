@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Logo TumbuhBaik">
+  <rect width="48" height="48" rx="14" fill="#C9EDE4"/>
+  <path d="M10.5 16.6c4.9-2.6 9.2-2.3 13.5.4v17.4c-4.3-2.4-8.6-2.6-13.5-.1V16.6Z" fill="#FFFFFF"/>
+  <path d="M37.5 16.6c-4.9-2.6-9.2-2.3-13.5.4v17.4c4.3-2.4 8.6-2.6 13.5-.1V16.6Z" fill="#FFFFFF"/>
+  <path d="M24 17v17.3" stroke="#143250" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M13.5 22.2c2.4-.7 4.7-.5 6.8.5M13.5 26.4c2.4-.7 4.7-.5 6.8.5" stroke="#A9DCD0" stroke-width="1.9" stroke-linecap="round"/>
+  <circle cx="36.5" cy="12.5" r="7" fill="#F47C63"/>
+  <path d="m33.5 12.6 2 2 3.8-4" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

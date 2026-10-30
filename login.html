@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#c8ece3">
+  <meta name="description" content="Masuk ke TumbuhBaik dengan akun demo Admin Web, Guru, PJ Kesiswaan, atau Orang Tua.">
+  <title>Masuk — TumbuhBaik</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap-utilities.min.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body class="auth-body">
+  <main class="auth-shell">
+    <aside class="auth-visual">
+      <div class="auth-visual__top">
+        <a class="brand brand--light" href="index.html" aria-label="TumbuhBaik, beranda">
+          <img class="brand__mark" src="assets/img/logo-mark.svg" alt="">
+          <span class="brand__copy">
+            <span class="brand__name">TumbuhBaik</span>
+            <span class="brand__tag">Monitoring Kesiswaan</span>
+          </span>
+        </a>
+        <span class="auth-visual__pill"><span class="dot"></span> Demo interaktif</span>
+      </div>
+
+      <div class="auth-visual__copy">
+        <span class="eyebrow eyebrow--light"><span class="eyebrow__dot"></span> Ruang tumbuh sekolah</span>
+        <h1>Setiap anak berhak tumbuh dengan tenang.</h1>
+        <p>Catatan yang rapi membantu guru dan orang tua berjalan searah — tanpa kehilangan hangatnya pendampingan.</p>
+      </div>
+
+      <div class="auth-visual__art">
+        <img src="assets/img/login-illustration.svg" alt="Ilustrasi perisai keamanan dan siswa sekolah dasar" width="520" height="520">
+      </div>
+
+      <div class="auth-quote">
+        <span class="icon-tile" aria-hidden="true"><span data-icon="heartHandshake"></span></span>
+        <div>
+          <p>“Yang kami butuhkan bukan sekadar tahu apa yang terjadi, tapi tahu langkah apa yang bisa kami ambil bersama.”</p>
+          <span>Guru kelas · SD Tunas Cendekia</span>
+        </div>
+      </div>
+    </aside>
+
+    <section class="auth-panel" aria-labelledby="loginTitle">
+      <a class="auth-home" href="index.html">
+        <span data-icon="chevronLeft" data-icon-size="14" aria-hidden="true"></span>
+        Kembali ke beranda
+      </a>
+      <div class="auth-panel__inner">
+        <div class="auth-mobile-brand">
+          <a class="brand" href="index.html">
+            <img class="brand__mark" src="assets/img/logo-mark.svg" alt="">
+            <span class="brand__copy">
+              <span class="brand__name">TumbuhBaik</span>
+              <span class="brand__tag">Monitoring Kesiswaan</span>
+            </span>
+          </a>
+        </div>
+
+        <div class="auth-heading">
+          <span class="eyebrow"><span class="eyebrow__dot"></span> Selamat datang kembali</span>
+          <h2 id="loginTitle">Masuk ke TumbuhBaik</h2>
+          <p>Pilih peran Anda, lalu gunakan akun demo yang tersedia di bawah.</p>
+        </div>
+
+        <div class="session-banner hidden" id="sessionBanner">
+          <span class="icon-tile" aria-hidden="true"><span data-icon="userCheck"></span></span>
+          <div class="session-banner__copy">
+            <strong id="sessionName">Sesi aktif</strong>
+            <span id="sessionRole">Anda sudah masuk ke dashboard.</span>
+          </div>
+          <a class="btn btn-brand" href="app.html">Lanjut <span data-icon="arrowRight" data-icon-size="14" aria-hidden="true"></span></a>
+        </div>
+
+        <form id="loginForm" novalidate>
+          <div class="field">
+            <span class="form-label">Masuk sebagai</span>
+            <div class="role-selector" id="roleSelector" role="group" aria-label="Pilih peran">
+              <button class="role-option is-active" type="button" data-role="admin" aria-pressed="true">
+                <span class="role-option__icon" aria-hidden="true"><span data-icon="shield" data-icon-size="16"></span></span>
+                <span class="role-option__copy">
+                  <strong>Admin Web</strong>
+                  <span>Kelola semua data</span>
+                </span>
+                <span class="role-option__check" aria-hidden="true"><span data-icon="check" data-icon-size="9"></span></span>
+              </button>
+              <button class="role-option" type="button" data-role="guru" aria-pressed="false">
+                <span class="role-option__icon" aria-hidden="true"><span data-icon="graduation" data-icon-size="16"></span></span>
+                <span class="role-option__copy">
+                  <strong>Guru</strong>
+                  <span>Catat &amp; nilai</span>
+                </span>
+                <span class="role-option__check" aria-hidden="true"><span data-icon="check" data-icon-size="9"></span></span>
+              </button>
+              <button class="role-option" type="button" data-role="pj" aria-pressed="false">
+                <span class="role-option__icon" aria-hidden="true"><span data-icon="clipboard" data-icon-size="16"></span></span>
+                <span class="role-option__copy">
+                  <strong>PJ Kesiswaan</strong>
+                  <span>Tinjau &amp; teguran</span>
+                </span>
+                <span class="role-option__check" aria-hidden="true"><span data-icon="check" data-icon-size="9"></span></span>
+              </button>
+              <button class="role-option" type="button" data-role="orangtua" aria-pressed="false">
+                <span class="role-option__icon" aria-hidden="true"><span data-icon="heart" data-icon-size="16"></span></span>
+                <span class="role-option__copy">
+                  <strong>Orang Tua</strong>
+                  <span>Pantau anak</span>
+                </span>
+                <span class="role-option__check" aria-hidden="true"><span data-icon="check" data-icon-size="9"></span></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="login-fields">
+            <div class="field">
+              <label for="username">Username</label>
+              <div class="input-wrap">
+                <span data-icon="user" data-icon-size="17" aria-hidden="true"></span>
+                <input class="form-control" id="username" name="username" type="text" placeholder="cth. admin" autocomplete="username" spellcheck="false" required>
+              </div>
+            </div>
+            <div class="field">
+              <label for="password">Kata sandi</label>
+              <div class="input-wrap">
+                <span data-icon="lock" data-icon-size="17" aria-hidden="true"></span>
+                <input class="form-control" id="password" name="password" type="password" placeholder="Masukkan kata sandi" autocomplete="current-password" style="padding-right: 44px;" required>
+                <button class="input-action" id="togglePassword" type="button" aria-label="Tampilkan kata sandi">
+                  <span data-icon="eye" data-icon-size="17" aria-hidden="true"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="login-meta">
+            <span><span data-icon="lock" data-icon-size="12" aria-hidden="true"></span> Data demo tetap di browser ini</span>
+            <button type="button" id="forgotButton">Lupa kata sandi?</button>
+          </div>
+
+          <p class="form-error" id="loginError" role="alert"></p>
+
+          <button class="btn btn-brand btn-block" type="submit" id="loginSubmit">
+            <span id="loginSubmitText">Masuk sebagai Admin Web</span>
+            <span data-icon="arrowRight" data-icon-size="17" aria-hidden="true"></span>
+          </button>
+        </form>
+
+        <div class="auth-divider"><span>Akun demo</span></div>
+        <div class="demo-list" id="demoList" aria-label="Akun demo"></div>
+        <p class="auth-note">
+          <span data-icon="info" data-icon-size="12" aria-hidden="true"></span>
+          Klik kartu akun untuk mengisi formulir secara otomatis. Semua akun hanya untuk keperluan demo front-end.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="auth-footer">
+    <span>© 2026 TumbuhBaik</span>
+    <span>·</span>
+    <a href="index.html">Beranda</a>
+    <span>·</span>
+    <a href="index.html#artikel">Artikel</a>
+    <span>·</span>
+    <span>Demo front-end, tanpa server.</span>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/login.js"></script>
+</body>
+</html>

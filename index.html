@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#c8ece3">
+  <meta name="description" content="TumbuhBaik adalah sistem monitoring pelanggaran siswa sekolah dasar yang tenang, transparan, dan terhubung untuk admin, guru, PJ kesiswaan, dan orang tua.">
+  <title>TumbuhBaik — Sekolah aman, anak tumbuh percaya diri</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="vendor/bootstrap/bootstrap-utilities.min.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/landing.css">
+</head>
+<body class="landing-body">
+  <div class="landing-shell">
+    <div class="ambient" aria-hidden="true">
+      <span class="ambient__ring ambient__ring--one"></span>
+      <span class="ambient__ring ambient__ring--two"></span>
+      <span class="ambient__dot"></span>
+    </div>
+
+    <div class="site-frame">
+      <header class="site-header">
+        <a class="brand" href="index.html" aria-label="TumbuhBaik, beranda">
+          <img class="brand__mark" src="assets/img/logo-mark.svg" alt="">
+          <span class="brand__copy">
+            <span class="brand__name">TumbuhBaik</span>
+            <span class="brand__tag">Monitoring Kesiswaan</span>
+          </span>
+        </a>
+
+        <nav class="site-nav" id="siteNav" aria-label="Navigasi utama">
+          <a class="site-nav__link is-active" href="#beranda">Beranda</a>
+          <a class="site-nav__link" href="#fitur">Fitur</a>
+          <a class="site-nav__link" href="#peran">Peran</a>
+          <a class="site-nav__link" href="#alur">Alur</a>
+          <a class="site-nav__link" href="#artikel">Artikel</a>
+          <span class="site-nav__mobile-cta">
+            <a class="btn btn-white btn-sm" href="login.html">Masuk</a>
+            <a class="btn btn-brand btn-sm" href="login.html">Buka dashboard</a>
+          </span>
+        </nav>
+
+        <div class="site-actions">
+          <a class="site-login" href="login.html">Masuk</a>
+          <a class="btn btn-brand site-cta" href="login.html">
+            Buka dashboard
+            <span data-icon="arrowUpRight" aria-hidden="true"></span>
+          </a>
+          <button class="nav-toggle" id="navToggle" type="button" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="siteNav">
+            <span data-icon="menu" aria-hidden="true"></span>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <!-- ============================== HERO ============================== -->
+        <section class="hero" id="beranda">
+          <div class="hero-copy reveal">
+            <span class="hero-badge">
+              <span class="hero-badge__dot" aria-hidden="true"></span>
+              Ruang tumbuh untuk sekolah dasar
+            </span>
+            <h1>Belajar aman,<br><span class="scribble">tumbuh</span><br>percaya diri.</h1>
+            <p class="hero-lead">
+              Satu tempat untuk mencatat, memahami, dan mendampingi perilaku siswa.
+              Tenang untuk guru, jelas untuk orang tua, dan ramah untuk anak.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-brand" href="login.html">
+                Masuk ke dashboard
+                <span data-icon="arrowRight" aria-hidden="true"></span>
+              </a>
+              <a class="btn btn-white" href="#alur">
+                Pelajari alurnya
+                <span data-icon="chevronDown" aria-hidden="true"></span>
+              </a>
+            </div>
+            <div class="hero-meta">
+              <div class="avatar-stack" aria-hidden="true">
+                <span class="avatar avatar--sm avatar-c1">RW</span>
+                <span class="avatar avatar--sm avatar-c2">BS</span>
+                <span class="avatar avatar--sm avatar-c3">AA</span>
+                <span class="avatar avatar--sm avatar-c4">HS</span>
+              </div>
+              <div class="hero-meta__copy">
+                <div class="hero-meta__stars" aria-label="Lima dari lima bintang">
+                  <span data-icon="star" aria-hidden="true"></span>
+                  <span data-icon="star" aria-hidden="true"></span>
+                  <span data-icon="star" aria-hidden="true"></span>
+                  <span data-icon="star" aria-hidden="true"></span>
+                  <span data-icon="star" aria-hidden="true"></span>
+                </div>
+                <span><strong>Empat peran, satu tujuan.</strong> Admin, guru, PJ, dan orang tua terhubung.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-art reveal reveal-delay-1">
+            <span class="hero-art__dot" aria-hidden="true"></span>
+            <img class="hero-art__img" src="assets/img/hero-illustration.svg" alt="Ilustrasi guru dan dua siswa sekolah dasar belajar dengan aman" width="720" height="600">
+            <div class="floating-card floating-card--score">
+              <span class="icon-tile" aria-hidden="true"><span data-icon="shield"></span></span>
+              <div class="floating-card__copy">
+                <strong>Perilaku aman</strong>
+                <span>88 / 100 poin</span>
+                <span class="floating-card__mini"><span data-icon="trend"></span> 12 poin naik</span>
+              </div>
+            </div>
+            <div class="floating-card floating-card--note">
+              <div class="floating-card__avatars" aria-hidden="true">
+                <span class="avatar avatar--xs avatar-c2">M</span>
+                <span class="avatar avatar--xs avatar-c4">N</span>
+                <span class="avatar avatar--xs avatar-c1">A</span>
+              </div>
+              <div class="floating-card__copy">
+                <strong>Catatan dibagikan</strong>
+                <span>3 pembaruan minggu ini</span>
+              </div>
+              <span class="icon-tile icon-tile--coral" aria-hidden="true"><span data-icon="heartHandshake"></span></span>
+            </div>
+          </div>
+        </section>
+
+        <div class="proof-strip" aria-label="Keunggulan TumbuhBaik">
+          <span class="proof-strip__label">Dirancang untuk alur nyata</span>
+          <div class="proof-strip__items">
+            <span class="proof-item"><span data-icon="database"></span> Data siswa terpadu</span>
+            <span class="proof-item"><span data-icon="activity"></span> Poin otomatis</span>
+            <span class="proof-item"><span data-icon="lock"></span> Akses sesuai peran</span>
+            <span class="proof-item"><span data-icon="heart"></span> Transparan untuk orang tua</span>
+          </div>
+        </div>
+
+        <!-- ============================== FEATURES ============================== -->
+        <section class="section" id="fitur">
+          <div class="section-head reveal">
+            <div class="section-head__main">
+              <span class="eyebrow section-kicker"><span class="eyebrow__dot"></span> Apa yang kami tawarkan</span>
+              <h2 class="section-title">Mendampingi,<br>bukan menghakimi.</h2>
+            </div>
+            <div class="section-head__side">
+              <p>
+                Semua data kesiswaan tersusun dalam satu alur yang mudah dipahami.
+                Fokusnya bukan pada hukuman, tetapi pada langkah perbaikan yang jelas.
+              </p>
+            </div>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card feature-card--mint reveal">
+              <span class="feature-icon" aria-hidden="true"><span data-icon="clipboard"></span></span>
+              <h3>Catat dengan rapi</h3>
+              <p>Setiap kejadian tercatat lengkap: siapa, kapan, jenis pelanggaran, dan apa yang terjadi.</p>
+              <ul class="feature-list">
+                <li><span data-icon="check" aria-hidden="true"></span> Jenis &amp; pengurangan poin</li>
+                <li><span data-icon="check" aria-hidden="true"></span> Keterangan kejadian</li>
+                <li><span data-icon="check" aria-hidden="true"></span> Riwayat per siswa</li>
+              </ul>
+              <a class="feature-link" href="#alur">Lihat alurnya <span data-icon="arrowRight" aria-hidden="true"></span></a>
+            </article>
+
+            <article class="feature-card feature-card--cream reveal reveal-delay-1">
+              <span class="feature-icon" aria-hidden="true"><span data-icon="award"></span></span>
+              <h3>Poin yang transparan</h3>
+              <p>Poin perilaku dan nilai kompetensi tampil berdampingan, sehingga perkembangan anak terlihat utuh.</p>
+              <ul class="feature-list">
+                <li><span data-icon="check" aria-hidden="true"></span> Poin perilaku otomatis</li>
+                <li><span data-icon="check" aria-hidden="true"></span> Nilai kompetensi siswa</li>
+                <li><span data-icon="check" aria-hidden="true"></span> Status perkembangan</li>
+              </ul>
+              <a class="feature-link" href="#peran">Kenali perannya <span data-icon="arrowRight" aria-hidden="true"></span></a>
+            </article>
+
+            <article class="feature-card feature-card--coral reveal reveal-delay-2">
+              <span class="feature-icon" aria-hidden="true"><span data-icon="heartHandshake"></span></span>
+              <h3>Tindak lanjut bersama</h3>
+              <p>Teguran dan sanksi bukan akhir cerita. Keduanya menjadi jembatan percakapan antara sekolah dan keluarga.</p>
+              <ul class="feature-list">
+                <li><span data-icon="check" aria-hidden="true"></span> Teguran &amp; sanksi terarah</li>
+                <li><span data-icon="check" aria-hidden="true"></span> Catatan pendampingan</li>
+                <li><span data-icon="check" aria-hidden="true"></span> Orang tua tetap terhubung</li>
+              </ul>
+              <a class="feature-link" href="#artikel">Baca panduan <span data-icon="arrowRight" aria-hidden="true"></span></a>
+            </article>
+          </div>
+        </section>
+
+        <!-- ============================== MISSION ============================== -->
+        <section class="section mission" id="tentang">
+          <div class="mission-visual reveal">
+            <img src="assets/img/community-illustration.svg" alt="Ilustrasi guru, siswa, dan orang tua tumbuh bersama di sekolah" width="640" height="500">
+            <div class="mission-visual__card">
+              <span class="icon-tile" aria-hidden="true"><span data-icon="users"></span></span>
+              <div>
+                <strong>Tumbuh bersama</strong>
+                <span>Sekolah &amp; keluarga, satu arah.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="mission-copy reveal reveal-delay-1">
+            <span class="eyebrow section-kicker"><span class="eyebrow__dot"></span> Misi kami</span>
+            <h2>Sekolah aman dimulai dari data yang dipahami bersama.</h2>
+            <p>
+              Kami percaya anak tumbuh paling baik ketika aturan, apresiasi, dan pendampingan
+              berjalan searah. TumbuhBaik menyatukan catatan kesiswaan agar setiap percakapan
+              dimulai dari pemahaman yang sama — bukan asumsi.
+            </p>
+            <div class="mission-points">
+              <div class="mission-point">
+                <span class="mission-point__icon" aria-hidden="true"><span data-icon="check"></span></span>
+                <div class="mission-point__copy">
+                  <strong>Satu sumber data untuk semua peran</strong>
+                  <span>Admin, guru, PJ, dan orang tua melihat informasi yang relevan tanpa tumpang tindih.</span>
+                </div>
+              </div>
+              <div class="mission-point">
+                <span class="mission-point__icon" aria-hidden="true"><span data-icon="sparkles"></span></span>
+                <div class="mission-point__copy">
+                  <strong>Fokus pada perbaikan, bukan label</strong>
+                  <span>Poin dan catatan menjadi bahan pendampingan yang membangun.</span>
+                </div>
+              </div>
+              <div class="mission-point">
+                <span class="mission-point__icon" aria-hidden="true"><span data-icon="lock"></span></span>
+                <div class="mission-point__copy">
+                  <strong>Ruang aman untuk anak</strong>
+                  <span>Setiap peran memiliki batas akses yang jelas dan terukur.</span>
+                </div>
+              </div>
+            </div>
+            <div class="mission-cta">
+              <a class="btn btn-soft" href="#peran">Lihat peran di TumbuhBaik <span data-icon="arrowRight" aria-hidden="true"></span></a>
+            </div>
+          </div>
+        </section>
+
+        <!-- ============================== ROLES ============================== -->
+        <section class="section roles-section" id="peran">
+          <div class="role-panel reveal">
+            <div class="roles-head">
+              <div>
+                <span class="eyebrow"><span class="eyebrow__dot"></span> Satu sistem, empat sudut pandang</span>
+                <h2 style="margin-top: 10px;">Setiap peran punya ruangnya.</h2>
+              </div>
+              <p>
+                Dari pendataan hingga pendampingan, akses disesuaikan dengan tanggung jawab.
+                Tidak ada informasi yang berlebihan, tidak ada langkah yang terlewat.
+              </p>
+            </div>
+            <div class="role-grid">
+              <article class="role-card">
+                <span class="role-card__icon role-card__icon--admin" aria-hidden="true"><span data-icon="shield"></span></span>
+                <h3>Admin Web</h3>
+                <p>Mengelola data induk, akun, artikel, dan aset web sekolah.</p>
+              </article>
+              <article class="role-card">
+                <span class="role-card__icon role-card__icon--guru" aria-hidden="true"><span data-icon="graduation"></span></span>
+                <h3>Guru</h3>
+                <p>Mencatat pelanggaran dan memperbarui nilai siswa di kelas binaan.</p>
+              </article>
+              <article class="role-card">
+                <span class="role-card__icon role-card__icon--pj" aria-hidden="true"><span data-icon="clipboard"></span></span>
+                <h3>PJ Kesiswaan</h3>
+                <p>Meninjau catatan serta menetapkan teguran dan sanksi yang mendidik.</p>
+              </article>
+              <article class="role-card">
+                <span class="role-card__icon role-card__icon--ortu" aria-hidden="true"><span data-icon="heart"></span></span>
+                <h3>Orang Tua</h3>
+                <p>Memantau perkembangan anak, nilai, dan catatan pendampingan.</p>
+              </article>
+            </div>
+            <p class="roles-note">
+              <span data-icon="key" aria-hidden="true"></span>
+              Kredensial demo untuk setiap peran tersedia di halaman masuk.
+            </p>
+          </div>
+        </section>
+
+        <!-- ============================== WORKFLOW ============================== -->
+        <section class="section workflow" id="alur">
+          <div class="section-head section-head--center reveal">
+            <span class="eyebrow"><span class="eyebrow__dot"></span> Alur sederhana</span>
+            <h2 class="section-title">Tiga langkah, satu arah.</h2>
+            <p class="section-copy">Dari catatan kecil menuju pendampingan yang bermakna.</p>
+          </div>
+          <div class="steps">
+            <article class="step reveal">
+              <span class="step__number">01</span>
+              <h3>Catat</h3>
+              <p>Guru atau PJ mencatat kejadian, jenis pelanggaran, dan keterangannya dengan cepat.</p>
+            </article>
+            <article class="step reveal reveal-delay-1">
+              <span class="step__number">02</span>
+              <h3>Tinjau</h3>
+              <p>PJ menelaah catatan lalu menetapkan teguran, sanksi, dan langkah pendampingan.</p>
+            </article>
+            <article class="step reveal reveal-delay-2">
+              <span class="step__number">03</span>
+              <h3>Pantau</h3>
+              <p>Orang tua dan guru melihat perkembangan poin serta nilai anak secara transparan.</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- ============================== ARTICLES ============================== -->
+        <section class="section articles" id="artikel">
+          <div class="section-head reveal">
+            <div class="section-head__main">
+              <span class="eyebrow section-kicker"><span class="eyebrow__dot"></span> Kabar &amp; artikel</span>
+              <h2 class="section-title">Bahan kecil untuk<br>percakapan besar.</h2>
+            </div>
+            <div class="section-head__side">
+              <p>Panduan singkat untuk guru dan orang tua dalam mendampingi anak di sekolah dasar.</p>
+              <a class="btn btn-white btn-sm" href="login.html" style="margin-top: 14px;">Baca di dashboard <span data-icon="arrowRight" aria-hidden="true"></span></a>
+            </div>
+          </div>
+          <div class="article-grid" id="latestArticles">
+            <article class="article-card">
+              <div class="article-card__visual article-card__visual--1">
+                <span class="article-card__pattern" aria-hidden="true"></span>
+                <span class="icon-tile" aria-hidden="true"><span data-icon="book"></span></span>
+              </div>
+              <div class="article-card__body">
+                <div class="article-card__meta"><span>Artikel</span><span class="dot"></span><span>Hari ini</span></div>
+                <h3>Membangun kebiasaan baik sejak dini</h3>
+                <p class="article-card__excerpt">Kebiasaan baik tumbuh dari contoh, pengulangan, dan dukungan orang dewasa di sekitar anak.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- ============================== CTA ============================== -->
+        <section class="cta-section">
+          <div class="cta-card reveal">
+            <div class="cta-copy">
+              <span class="eyebrow">Mulai dari langkah kecil</span>
+              <h2>Siap mencoba TumbuhBaik di sekolah Anda?</h2>
+              <p>
+                Masuk dengan akun demo untuk melihat dashboard, mencatat pelanggaran,
+                menetapkan teguran, dan memantau perkembangan siswa.
+              </p>
+            </div>
+            <div class="cta-actions">
+              <a class="btn btn-brand" href="login.html">Masuk dengan akun demo <span data-icon="arrowRight" aria-hidden="true"></span></a>
+              <a class="btn btn-white" href="login.html#akun-demo">Lihat kredensial</a>
+              <small>Data demo tersimpan lokal di browser Anda.</small>
+            </div>
+            <svg class="cta-doodle" viewBox="0 0 100 80" fill="none" aria-hidden="true">
+              <path d="M8 62c18-27 30-36 46-37 18-1 28 8 35 22" stroke="#1F8A79" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8"/>
+              <path d="m83 38 7 9-11 3" stroke="#1F8A79" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="17" cy="29" r="7" fill="#F6C95D"/>
+              <circle cx="55" cy="18" r="4" fill="#F2836C"/>
+            </svg>
+          </div>
+        </section>
+      </main>
+
+      <!-- ============================== FOOTER ============================== -->
+      <footer class="site-footer">
+        <div class="footer-main">
+          <div class="footer-brand">
+            <a class="brand" href="index.html">
+              <img class="brand__mark" src="assets/img/logo-mark.svg" alt="">
+              <span class="brand__copy">
+                <span class="brand__name">TumbuhBaik</span>
+                <span class="brand__tag">Monitoring Kesiswaan</span>
+              </span>
+            </a>
+            <p>Ruang tenang untuk mencatat, memahami, dan mendampingi perilaku siswa sekolah dasar.</p>
+            <ul class="footer-contact">
+              <li><span data-icon="mapPin" aria-hidden="true"></span> SD Tunas Cendekia · Bandung</li>
+              <li><span data-icon="mail" aria-hidden="true"></span> halo@tumbuhbaik.sch.id</li>
+              <li><span data-icon="phone" aria-hidden="true"></span> (022) 555-0123</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Jelajahi</h3>
+            <ul>
+              <li><a href="#beranda">Beranda</a></li>
+              <li><a href="#fitur">Fitur</a></li>
+              <li><a href="#peran">Peran</a></li>
+              <li><a href="#alur">Alur kerja</a></li>
+              <li><a href="#artikel">Artikel</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Untuk sekolah</h3>
+            <ul>
+              <li><a href="login.html">Masuk dashboard</a></li>
+              <li><a href="login.html#akun-demo">Akun demo</a></li>
+              <li><a href="login.html">Panduan peran</a></li>
+              <li><a href="#tentang">Tentang kami</a></li>
+            </ul>
+          </div>
+          <div class="footer-col footer-col--social">
+            <h3>Tetap terhubung</h3>
+            <p style="color: var(--muted); font-size: 11px; line-height: 1.7; max-width: 230px;">Ikuti kabar kegiatan dan tips pendampingan anak.</p>
+            <div class="footer-socials">
+              <a href="https://dribbble.com" target="_blank" rel="noreferrer" aria-label="Referensi desain di Dribbble"><span data-icon="instagram"></span></a>
+              <a href="#artikel" aria-label="Artikel TumbuhBaik"><span data-icon="book"></span></a>
+              <a href="login.html" aria-label="Masuk ke TumbuhBaik"><span data-icon="user"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2026 TumbuhBaik. Dibuat untuk demo front-end sistem monitoring siswa SD.</p>
+          <div class="footer-bottom__links">
+            <a href="#tentang">Kebijakan Privasi</a>
+            <a href="#tentang">Ketentuan</a>
+            <a href="login.html">Masuk</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <noscript>
+    <div style="position:fixed;left:16px;right:16px;bottom:16px;padding:14px 18px;background:#143250;color:#fff;border-radius:14px;font:13px sans-serif;z-index:9999;">Aktifkan JavaScript untuk melihat artikel dan membuka dashboard demo.</div>
+  </noscript>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/landing.js"></script>
+</body>
+</html>
